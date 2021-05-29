@@ -7,7 +7,7 @@ android {
         debug {
             storeFile file('C:\\Users\\Archana Ajith\\keystore\\keystorefinal.jks')
             storePassword 'Achu2895!123'
-            keyAlias 'key1'
+            keyAlias 'key2'
             keyPassword 'Achu2895!123'
         }
     }

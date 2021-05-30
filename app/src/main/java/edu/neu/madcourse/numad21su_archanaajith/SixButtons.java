@@ -45,22 +45,22 @@ public class SixButtons extends AppCompatActivity implements View.OnClickListene
     public void onClick(View v) {
         switch(v.getId()) {
             case R.id.button3:
-                textToDisplay.setText("Button A clicked !");
+                textToDisplay.setText("Pressed:Button A");
                 break;
             case R.id.button4:
-                textToDisplay.setText("Button B clicked !");
+                textToDisplay.setText("Pressed:Button B");
                 break;
             case R.id.button5:
-                textToDisplay.setText("Button C clicked !");
+                textToDisplay.setText("Pressed:Button C");
                 break;
             case R.id.button6:
-                textToDisplay.setText("Button D clicked !");
+                textToDisplay.setText("Pressed:Button D");
                 break;
             case R.id.button7:
-                textToDisplay.setText("Button E clicked !");
+                textToDisplay.setText("Pressed:Button E");
                 break;
             case R.id.button8:
-                textToDisplay.setText("Button F clicked !");
+                textToDisplay.setText("Pressed:Button F");
                 break;
 
         }

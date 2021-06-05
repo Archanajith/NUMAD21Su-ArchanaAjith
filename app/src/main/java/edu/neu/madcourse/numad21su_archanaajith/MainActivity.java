@@ -15,6 +15,7 @@ import java.nio.charset.Charset;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button aboutButton;
     Button clickButton;
+    Button linkCollector;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         aboutButton.setOnClickListener(this);
         clickButton = findViewById(R.id.button2);
         clickButton.setOnClickListener(this);
+        linkCollector=findViewById(R.id.button9);
+        linkCollector.setOnClickListener(this);
     }
 
 
@@ -44,6 +47,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     Intent intent = new Intent(MainActivity.this, SixButtons.class);
                     startActivity(intent);
                     break;
+                case  R.id.button9:
+                    Intent intentLinkCollector = new Intent(MainActivity.this, URLLinkCollector.class);
+                    startActivity(intentLinkCollector);
+                    break;
+
     }
 }
 }

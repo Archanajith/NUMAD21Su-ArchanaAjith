@@ -4,11 +4,11 @@ plugins {
 
 android {
     signingConfigs {
-        debug {
-            storeFile file('C:\\Users\\Archana Ajith\\keystore\\keystorefinal.jks')
-            storePassword 'Achu2895!123'
-            keyAlias 'key2'
-            keyPassword 'Achu2895!123'
+        release {
+            storeFile file('C:\\Users\\Archana Ajith\\keystore\\key')
+            storePassword 'Achu2895'
+            keyAlias 'keyAA'
+            keyPassword 'Achu2895'
         }
     }
     compileSdkVersion 30
@@ -28,6 +28,8 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            debuggable true
+            signingConfig signingConfigs.release
         }
     }
     compileOptions {

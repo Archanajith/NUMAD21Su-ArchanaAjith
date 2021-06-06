@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     startActivity(intent);
                     break;
                 case  R.id.button9:
-                    Intent intentURL = new Intent(MainActivity.this, URLLinkCollecttor.class);
+                    Intent intentURL = new Intent(MainActivity.this, URLLink.class);
                     startActivity(intentURL);
                     break;
 

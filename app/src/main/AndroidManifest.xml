@@ -9,10 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_aa_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NUMAD21SuArchanaAjith">
-        <activity
-            android:name=".URLLinkCollecttor"
-            android:label="@string/title_activity_urllink_collecttor"
-            android:theme="@style/Theme.NUMAD21SuArchanaAjith.NoActionBar"></activity>
+        <activity android:name=".URLLink"></activity>
         <activity android:name=".SixButtons" />
         <activity android:name=".MainActivity">
             <intent-filter>

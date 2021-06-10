@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button aboutButton;
     Button clickButton;
     Button linkCollector;
+    Button clickLocation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         clickButton.setOnClickListener(this);
         linkCollector=findViewById(R.id.button9);
         linkCollector.setOnClickListener(this);
+        clickLocation=findViewById(R.id.button11);
+        clickLocation.setOnClickListener(this);
     }
 
 
@@ -50,6 +53,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 case  R.id.button9:
                     Intent intentURL = new Intent(MainActivity.this, URLLink.class);
                     startActivity(intentURL);
+                    break;
+                case  R.id.button11:
+                    Intent intentLocation = new Intent(MainActivity.this, Location.class);
+                    startActivity(intentLocation);
                     break;
 
     }

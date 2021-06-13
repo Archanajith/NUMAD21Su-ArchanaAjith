@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_aa_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NUMAD21SuArchanaAjith">
-        <activity android:name=".Location"></activity>
+        <activity android:name=".LocationActivity"></activity>
         <activity android:name=".URLLink" />
         <activity android:name=".SixButtons" />
         <activity android:name=".MainActivity">

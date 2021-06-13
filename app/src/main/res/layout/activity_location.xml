@@ -4,6 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Location">
+    tools:context=".LocationActivity">
+
+    <Button
+        android:id="@+id/getLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickGetLocation"
+        android:text="Get Current Location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="201dp"
+        android:layout_height="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getLocationButton"
+        app:layout_constraintVertical_bias="0.198" />
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="187dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/latitude"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/longitude" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

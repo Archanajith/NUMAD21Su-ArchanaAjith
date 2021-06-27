@@ -47,7 +47,7 @@
         android:layout_width="290dp"
         android:layout_height="54dp"
         android:gravity="center_vertical|center_horizontal"
-        android:text="Enter a movie to find similiar movies"
+        android:text="Find all movie titles with just a word search"
         app:layout_constraintBottom_toTopOf="@+id/plain_text_input"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"

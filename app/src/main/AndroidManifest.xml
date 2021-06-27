@@ -13,8 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_aa_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NUMAD21SuArchanaAjith">
-        <activity android:name=".onclickWebService"></activity>
-        <activity android:name=".WebService"></activity>
+        <activity android:name=".onclickWebService"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"></activity>
+        <activity android:name=".WebService"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"></activity>
         <activity android:name=".LocationActivity" />
         <activity android:name=".URLLink" />
         <activity android:name=".SixButtons" />

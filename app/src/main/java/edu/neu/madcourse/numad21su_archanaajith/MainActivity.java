@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button linkCollector;
     Button clickLocation;
     Button webServiceLocation;
+    //Button searchMovies;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         clickLocation.setOnClickListener(this);
         webServiceLocation=findViewById(R.id.button10);
         webServiceLocation.setOnClickListener(this);
+       // searchMovies=findViewById(R.id.button12);
+        //searchMovies.setOnClickListener(this);
     }
 
 
